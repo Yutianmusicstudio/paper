@@ -5,6 +5,11 @@
 生理信号、远程平台等）与音乐治疗、音乐教育、音乐表演的交叉**。
 目标：**快速产出并发表 JCR Q2–Q3 论文**。一切工作围绕"可发表、可复现、周期短"展开。
 
+## 当前重点
+1. **快速产出可发表的 idea**，每个 idea 写明对象 / 技术 / 论文类型 / 目标期刊。
+2. **先查重再开题**：用 `/novelty-check` 跑两轮检索，按 🟢🟡🔴 判定并记入 `docs/idea-board.md`。
+3. 🟢 的 idea 立即建议预注册（OSF / PROSPERO）占位。
+
 ## 工作原则
 1. **先选刊再写**：每篇稿件开题前先锁定 2–3 本目标期刊（见 `docs/target-journals.md`），
    按其 Aims & Scope、字数、结构要求反向设计论文。
@@ -27,7 +32,9 @@
 快速发表策略见 `docs/publish-fast.md`。
 
 ## 目录结构
-- `docs/research-agenda.md` 选题库与优先级
+- `docs/research-agenda.md` 选题队列（排序后）
+- `docs/idea-board.md` 每个 idea 的查重证据与差异化角度
+- `docs/novelty-check.md` 查重流程
 - `docs/target-journals.md` 目标期刊清单
 - `docs/workflow.md` 从选题到投稿的标准流程与时间表
 - `docs/publish-fast.md` 快速发表手册
@@ -36,6 +43,7 @@
 - `papers/` 每篇稿件一个子目录；`papers/_archive/` 存放已发表或放弃的稿件
 
 ## 常用指令
+- "查重 <idea>" 或 `/novelty-check <idea>`：两轮检索，输出判定与近邻证据，追加到 idea-board。
 - "开一篇新稿 <主题>"：从 `templates/` 复制模板到 `papers/<slug>/`，写出大纲与目标期刊。
 - "文献检索 <主题>"：输出检索式（PubMed / Web of Science / Scopus / ERIC / RILM），
   并按 PRISMA 记录纳入排除。
