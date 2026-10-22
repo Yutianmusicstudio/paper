@@ -20,10 +20,18 @@
 7. **期刊分区会变**：JCR 分区以最新年份官方数据为准，文档中的分区只是起草时的参考，
    投稿前必须复核。
 
+## 可用 skill
+`.claude/skills/` 内装有 19 个第三方学术 skill（MIT），索引见 `docs/resources.md`，来源见 `.claude/skills/NOTICE.md`。
+典型链路：`/find-journal` 选刊 → `/search-lit` 检索 → `/paper-writer` 或 `/write-paper` 起草 →
+`/check-reporting` → `/verify-refs` → `/self-review` → `/humanize` → 投稿；返修用 `/revise`。
+快速发表策略见 `docs/publish-fast.md`。
+
 ## 目录结构
 - `docs/research-agenda.md` 选题库与优先级
 - `docs/target-journals.md` 目标期刊清单
 - `docs/workflow.md` 从选题到投稿的标准流程与时间表
+- `docs/publish-fast.md` 快速发表手册
+- `docs/resources.md` skill、插件与参考文章索引
 - `templates/` 大纲、稿件、投稿信、审稿回复模板
 - `papers/` 每篇稿件一个子目录；`papers/_archive/` 存放已发表或放弃的稿件
 
