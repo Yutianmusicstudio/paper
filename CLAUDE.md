@@ -35,6 +35,8 @@
 - `docs/research-agenda.md` 选题队列（排序后）
 - `docs/idea-board.md` 每个 idea 的查重证据与差异化角度
 - `docs/novelty-check.md` 查重流程
+- `docs/research-program.md` 研究纲领：一个深核心 + 边缘论文（hub 与 spokes）
+- `docs/idea-sweep-program.md` 选题循环的程序文件（人改）；`docs/idea-log.tsv` 循环日志（AI 追加）
 - `docs/target-journals.md` 目标期刊清单
 - `docs/workflow.md` 从选题到投稿的标准流程与时间表
 - `docs/publish-fast.md` 快速发表手册
@@ -44,6 +46,7 @@
 
 ## 常用指令
 - "查重 <idea>" 或 `/novelty-check <idea>`：两轮检索，输出判定与近邻证据，追加到 idea-board。
+- "跑选题循环" 或 `/idea-sweep`：读 `docs/idea-sweep-program.md`，按矩阵批量生成 idea、查重、打分，记到 `docs/idea-log.tsv`，不中途问人。
 - "开一篇新稿 <主题>"：从 `templates/` 复制模板到 `papers/<slug>/`，写出大纲与目标期刊。
 - "文献检索 <主题>"：输出检索式（PubMed / Web of Science / Scopus / ERIC / RILM），
   并按 PRISMA 记录纳入排除。
