@@ -33,7 +33,70 @@ Artificial intelligence in music therapy practice: evidence, competence and gove
 - **落点期刊**：Journal of Music Therapy（Q2）、Nordic Journal of Music Therapy、The Arts in Psychotherapy、JMIR 系列。
 - **优点**：时效性强、引用增长快。**缺点**：窗口在收窄，竞争者多，调查类需伦理与招募。
 
+## 四个核心工作也不需要伦理的 hub（2026-10-26 新增，已初步查重）
+
+不需伦理的深核心只有四类来源：公开数据集上的计算研究、AI 输出的评估研究、文献与注册库的 meta 研究、以共同作者为评分者的专家评价。下面四个 hub 都满足。
+
+### Hub C：面向教学的钢琴演奏计算评估
+Computational, pedagogy-aligned assessment of piano performance
+
+- **锚点**：钢琴表演 × 音乐教育 × AI / MIR
+- **核心（深，1–2 年，零伦理）**：在公开数据集上建立"教师视角可解释"的钢琴演奏评估模型并验证：以 PercePiano（*Scientific Reports* 2024，1,202 段、19 个感知维度、专家标注）与 NeuroPiano（2024，学生练习曲录音 + 教师文字反馈与评分）为基准，输出按教学维度（节奏、触键、踏板、乐句、力度）分解的评分与可读反馈，并做跨曲目、跨水平的泛化与偏差分析。近邻：ISMIR 2024 "Piano Judges" 基准（音频编码器视角）、DLEPT 2026（Transformer 对比专家参考）。差异点：教学可解释性、与教师评语的对齐、公平性分析，而非只追求准确率。
+- **spokes（全部零伦理）**：
+  | 面向 | 题目 | 判定 | 周期 |
+  |---|---|---|---|
+  | 证据综合 | AI 自动演奏评估系统的效度与信度系统综述（H6） | 🟡 | 3–4 月 |
+  | 数据审计 | 钢琴演奏评估公开数据集的"数据表"审计：标注质量、许可、人口学覆盖 | 🟢 待复核 | 2–3 月 |
+  | 工具评价 | LLM 对学生演奏的文字反馈 vs NeuroPiano 教师反馈：自动与专家对比 | 🟢 待复核 | 3 月 |
+  | 工具评价 | LLM 乐理分级考试阶梯与多模态输入（F1b） | 🟡 | 2–3 月 |
+  | 信息环境 | 钢琴学习 App 用户评价挖掘（H1 子集） | 🟢 | 3 月 |
+  | 开放科学 | 钢琴演奏评估研究的可复现性审计（代码、数据、模型可得性） | 🟢 待复核 | 2 月 |
+  | 公平 | 评估模型在不同曲目、风格、演奏水平上的偏差分析 | 🟢 待复核 | 核心副产物 |
+- **期刊**：Journal of New Music Research、IEEE Access、Applied Sciences、Computers and Education: Artificial Intelligence、Education and Information Technologies、Music & Science。
+- **要求**：Python 与 GPU（PercePiano 规模小，普通 GPU 即可）；代码可由助手产出。
+
+### Hub D：大语言模型作为音乐治疗与音乐教育的知识主体：评估科学
+LLMs as knowledge agents in music therapy and music education: an evaluation science
+
+- **锚点**：音乐治疗 × 音乐教育 × LLM
+- **核心（深，1 年，零伦理）**：建立并公开首个音乐治疗 LLM 基准 MusicTherapyBench：专家编写的能力域题库（F1 的题库是第一版）+ 会诊式任务（评估摘要、疗程计划、文档撰写）+ 专家评分量规；跨模型、跨版本持续评测并发布排行榜。近邻：CounselBench（ICLR 2026，心理咨询）、HealthBench、2026 音乐理解问答基准（非临床）；音乐治疗专属基准为零。
+- **spokes（零伦理，评分者为共同作者）**：F1 资格考试 🟢 已开题；F2 聊天机器人 MPA 回答 🟢 已开题；F3 短视频；LLM 生成疗程计划质量专家评价 🟢 待复核；LLM 撰写音乐治疗文献综述的引用幻觉率审计 🟢 待复核；LLM 对练习损伤与乐手健康问题的回答质量；F6 课程文件分析；F1b 乐理阶梯。
+- **期刊**：JMIR Medical Education、JMIR Formative Research、Journal of Music Therapy、Nordic Journal of Music Therapy、Computers and Education: Artificial Intelligence。
+- **要求**：2–3 名持证音乐治疗师共同作者；API 费用数百美元。
+
+### Hub E：生成式 AI 与"治疗性音乐"的计算音乐学
+Computational musicology of therapeutic music in the age of generative AI
+
+- **锚点**：音乐治疗 × 生成式音乐 × 音频分析
+- **核心（深，1 年，完全零伦理，无需评分者）**：建立"提示到治疗特征保真度"基准：用音乐治疗的既有参数（ISO 原则、约 60–80 BPM、低唤醒、可预测性、调式）构造提示，让 Suno、Udio、MusicGen 等生成针对焦虑、睡眠、痴呆、表演前准备的音乐，用 Essentia / librosa 提取特征，对照人类治疗性音乐语料与 Spotify 相关歌单（Scarratt 等 2023 已做睡眠歌单 22 万首，焦虑与表演前歌单未做），量化生成器是否"听懂"治疗性提示、同一提示的变异度、跨文化同质化。近邻：仅有商业评测博客与 2024 Prolific 感知实验；学术零。
+- **spokes（零伦理）**：焦虑 / 专注 / 表演前歌单音频特征分析 🟢 待复核；生成器服务条款与临床使用政策分析 🟢 待复核；AI 生成"治疗歌曲"歌词内容分析；生成音乐文化同质性分析；A1′ 范围综述 🟡；生成式音乐治疗系统综述更新。
+- **期刊**：Music & Science、Frontiers in Psychology、Applied Sciences、PLOS ONE、Musicae Scientiae、Journal of New Music Research。
+- **注意**：Spotify 音频特征 API 2024 年 11 月起对新应用停用，特征需本地提取；生成器版权条款需核对。
+- **要求**：Python、音频特征工具；生成器订阅费。
+
+### Hub F：音乐干预与音乐教育研究的证据基础设施
+Evidence infrastructure for music intervention and music education research
+
+- **锚点**：音乐治疗 × 音乐教育 × meta 研究
+- **核心（深，零伦理）**：建立并维护"音乐干预证据活地图"：注册库 + 文献的持续更新系统映射，用机器学习辅助筛选并验证其准确率。近邻：各医学领域活地图成熟，音乐领域无。
+- **spokes**：H3 注册库分析、H4 报告质量、H10 量表综述、F7 开放科学审计、F10 文献计量，全部 🟢。
+- **期刊**：Journal of Music Therapy、Research Synthesis Methods、Frontiers in Psychology、Systematic Reviews。
+
+### 四个 hub 的比较
+| | Hub C 钢琴评估 | Hub D LLM 评估 | Hub E 生成音乐 | Hub F meta 研究 |
+|---|---|---|---|---|
+| 核心零伦理 | 是 | 是（评分者为共同作者） | 是，连评分者都不需要 | 是 |
+| 深度与辨识度 | 高 | 高，时效最强 | 高，几乎无人做 | 中，方法学身份 |
+| spokes 数量 | 7 | 8 | 6 | 5 |
+| 技术门槛 | Python + 小 GPU | API 调用 | 音频特征提取 | 数据清洗 |
+| 外部依赖 | 公开数据集 | 2–3 名持证治疗师 | 生成器订阅 | 无 |
+| 稳定落点 | JNMR、IEEE Access、EAIT | JMIR 系列、JMT | Music & Science、Frontiers | JMT、Frontiers |
+| 最大风险 | MIR 社区竞争快 | 模型迭代快 | 版权条款、API 变动 | 被视为"不够实证" |
+
 ## 推荐
+在四个零伦理 hub 中：锚在钢琴表演选 **Hub C**；锚在音乐治疗选 **Hub E**（成本最低、竞争最少）或 **Hub D**（时效最强）。Hub F 可作任一 hub 的副线。
+
+原两个 hub 的判断保留如下。
 **以 Hub A 为主纲领，Hub B 为副线。** 理由：Hub A 的八个 spokes 全部查重通过、六个不需伦理、落点期刊 Q3 稳收；核心工作可以逐步升级而不影响边缘产出。Hub B 保留 F1 和 A3′ 两篇，作为第二身份。
 
 ## Spoke 生成矩阵（`/idea-sweep` 使用）

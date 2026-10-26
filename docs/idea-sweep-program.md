@@ -3,8 +3,9 @@
 仿 karpathy/autoresearch 的 `program.md`：人只改本文件来调整"研究组织"，AI 读本文件后自主循环，不问人。
 
 ## 当前 hub
-- **主 hub**：Hub A 技术介导的音乐表演焦虑评估与管理（见 `docs/research-program.md`）
+- **主 hub**：待用户从 Hub C / D / E / F 中选定（零伦理 hub，见 `docs/research-program.md`）；未选定前默认 Hub A
 - **副 hub**：Hub B 人工智能进入音乐治疗实践
+- 可选 hub：A 技术介导 MPA · B AI 进入音乐治疗 · C 钢琴演奏计算评估 · D LLM 评估科学 · E 生成式 AI 治疗性音乐计算音乐学 · F 证据基础设施
 - 自由模式（不限 hub）：仅当本文件把 `free_mode: true` 改为真时启用
 
 ```
