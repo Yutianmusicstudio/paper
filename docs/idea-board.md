@@ -77,6 +77,83 @@
 - **N4 EEG / 神经反馈音乐治疗综述**：Sayal 等 2025 *Frontiers in Neuroscience* 系统综述；Perrotta 2025 *Technologies* BCI 乐手专题综述。
 - **A3 原版（音乐教师 UTAUT2）**：中国职前音乐教师 848 人 UTAUT2（2026）、370 人扩展 UTAUT、器乐教师混合方法（2026）、TAM 218 人（2025）。
 
+---
+
+## 第二批：高可发性候选（查重日期 2026-10-26）
+
+筛选标准：不需要伦理或只需豁免、不依赖招募、审稿人熟悉的论文类型（COSMIN 综述、meta 研究、注册库分析、公开数据挖掘、范围综述）。概率为判断估计。
+
+| 序 | 编号 | 题目 | 判定 | 伦理 | 周期 | 可发概率 |
+|---|---|---|---|---|---|---|
+| 1 | H10 | 音乐表演焦虑测量工具的测量学特性：COSMIN 系统综述 | 🟢 | 否 | 3–4 月 | 75–85% |
+| 2 | H3 | 全球注册的音乐干预临床试验特征、技术介导比例与发表状态：注册库横断面分析 | 🟢 | 否 | 2–3 月 | 70–80% |
+| 3 | H4 | 技术介导音乐干预试验的报告质量：对照 RG-MBI 2025 与 CONSORT-EHEALTH 的 meta 研究 | 🟢 | 否 | 3–4 月 | 70–80% |
+| 4 | H1 | 音乐学习 App 用户评价的主题与情感挖掘（Yousician、Simply Piano、Flowkey 等） | 🟢 | 公开数据，通常豁免 | 3–4 月 | 70–80% |
+| 5 | H7 | VR / AR / MR 在音乐教育中的应用：PRISMA-ScR 范围综述 | 🟢 | 否 | 3–4 月 | 65–75% |
+| 6 | H2 | 应用商店音乐类心理健康 App 的系统检索与 MARS 质量评价 | 🟡 | 否 | 3 月 | 60–70% |
+| 7 | H9 | LLM 对音乐学生演奏 / 作曲反馈的质量：教师盲评研究 | 🟡 | 最低风险 | 5–6 月 | 60–70% |
+| 8 | H6 | AI 自动演奏评估系统在教育情境中的效度与信度：系统综述 | 🟡 | 否 | 3–4 月 | 55–65% |
+| 9 | H5 | 传感器 / 可穿戴反馈系统对器乐学习效果的影响：系统综述 | 🟡 | 否 | 3–4 月 | 55–65% |
+| — | H8 | 音乐干预 × 痴呆伞状综述 | 🔴 | — | — | 放弃 |
+
+### H10 🟢 MPA 测量工具 COSMIN 系统综述
+- 近邻：西班牙语 K-MPAI 文献综述（非 COSMIN）；Nicholl & Abbott 2026 与 MDPI *Behavioral Sciences* 2025 干预综述均指出"MPA 测量缺乏标准化"但未做测量学评价；2022 Mazzarollo 五项短量表、2024 葡萄牙语 MPA 量表等单量表验证研究持续出现。
+- 空白：未发现对 K-MPAI、PAI、MPAI-A、STAI 改编版等工具的 COSMIN 系统综述。
+- 建议角度：按 COSMIN 流程评价所有 MPA 专用量表及其译本的结构效度、内部一致性、跨文化效度，给出"推荐 / 有潜力 / 不推荐"分级。审稿人对 COSMIN 综述接受度高、结构固定。
+- 目标期刊：Psychology of Music；Frontiers in Psychology；Musicae Scientiae。
+- 下一步：PROSPERO 直接检索确认无同类注册后立即注册。
+
+### H3 🟢 音乐干预试验注册库横断面分析
+- 近邻：2020 年 GSA 会议摘要（ClinicalTrials.gov + WHO ICTRP，449 项，48 国）；2022 ACP 会议摘要（老年人 603 项）；均无全文发表，也未分析技术介导与发表状态。
+- 空白：无同行评审的注册库全景分析，更无技术介导（App、VR、远程、AI）比例与完成 / 发表率分析。
+- 建议角度：检索 ClinicalTrials.gov 与 ICTRP 全部音乐干预试验，描述人群、设计、结局、技术介导比例、完成状态，并匹配已发表论文计算发表率。
+- 目标期刊：Journal of Music Therapy；Frontiers in Psychology；Complementary Therapies in Clinical Practice；Trials。
+- 下一步：OSF 预注册分析计划。
+
+### H4 🟢 技术介导音乐干预试验报告质量 meta 研究
+- 近邻：Robb 等 2018 报告质量基线综述（187 项，<50% 报告四项核心内容）；2024 外科预录音乐干预 TIDieR 综述（PROSPERO CRD42023427138）；Robb 等 2025 RG-MBI 更新版（12 项，*Integrative Medicine Research*）与 Frontiers 2025 释义指南。
+- 空白：RG-MBI 2025 尚未被用于审计任何子领域；技术介导干预（App、远程、VR、AI 生成音乐）从未被系统审计报告质量。
+- 建议角度：纳入 2015–2026 技术介导音乐干预试验，用 RG-MBI 2025 + CONSORT-EHEALTH 双清单评分，报告逐项符合率与时间趋势。方法学论文命中率高，且 RG-MBI 作者群是潜在审稿人。
+- 目标期刊：Journal of Music Therapy；Frontiers in Psychology；JMIR Formative Research；Integrative Medicine Research。
+- 下一步：PROSPERO 注册。
+
+### H1 🟢 音乐学习 App 用户评价挖掘
+- 近邻：Spotify 评价情感分析（2024，非学习类）；健康 App 评价人工标注研究（2025）；商业网站对 Yousician 等差评的非学术汇总。
+- 空白：未发现任何对音乐学习 App 公开用户评价做主题建模或情感分析的学术研究。
+- 建议角度：抓取 Google Play 与 App Store 上 5–8 个主流音乐学习 App 的评价，LDA / BERTopic 主题建模 + 情感分析，以自我调节学习或 Hattie 反馈框架解读学习者感知的反馈、动机与放弃原因。数据公开，多数伦理委员会判豁免。
+- 目标期刊：Education and Information Technologies；International Journal of Music Education；Computers and Education: Artificial Intelligence；JMIR Formative Research。
+- 下一步：确认平台条款允许学术抓取；OSF 预注册分析计划。
+
+### H7 🟢 VR / AR / MR 音乐教育范围综述
+- 近邻：Zhang & Wan Yahaya 2025 IGI Global 书章 AR 音乐教育系统综述（可见度低，仅 AR）；*Scientific Reports* 2025 VR 音乐课堂模型研究；通用教育 AR/VR 综述多篇。
+- 空白：无期刊发表的 PRISMA-ScR，覆盖 VR、AR、MR 三类技术在音乐教育中的应用、学习结果与评价方法。
+- 建议角度：2015–2026，按技术类型 × 教学内容（器乐、视唱练耳、合奏、音乐史）× 结果类型映射，指出证据密度与空白。
+- 目标期刊：International Journal of Music Education；Music Education Research；Education and Information Technologies。
+- 下一步：OSF 预注册。
+
+### H2 🟡 音乐类心理健康 App 的 MARS 评价
+- 近邻：*Frontiers in Human Neuroscience* 2026 范围综述（22 个音乐数字疗法产品，20 家公司中仅 8 家有同行评审证据，属商业扫描）；*Frontiers in Psychiatry* 2024 音乐治疗 App 证据等级综述（31 项研究）；通用心理健康 App MARS 综述（2026，77 个 App）。
+- 空白：无应用商店系统检索 + MARS 评分 + 证据映射的消费级音乐 App 研究。
+- 差异点：对象是商店可下载的 App 而非公司，方法是 MARS 标准化评分而非文献综述。
+- 目标期刊：JMIR mHealth and uHealth；JMIR Formative Research；Digital Health。
+
+### H9 🟡 LLM 反馈质量教师盲评
+- 近邻：LLaQo（arXiv 2024，钢琴演奏反馈模型，计算机视角）；2025 声乐 LLM 反馈元认知研究；McPherson 等 2022 音乐教学反馈框架。
+- 空白：无教育期刊发表的"教师盲评 LLM vs 教师反馈"研究。
+- 建议角度：用公开学生演奏录音或作曲作业生成 ChatGPT / Claude / Gemini 反馈，与教师反馈混合后由 20 名以上教师按 Hattie 反馈层级盲评。教师评分者需最低风险伦理。
+- 目标期刊：Music Education Research；British Journal of Music Education；Computers and Education: Artificial Intelligence。
+
+### H6 🟡 AI 自动演奏评估效度综述
+- 近邻：Moura 等 2024 *Frontiers in Psychology* 独奏演奏评估标准系统综述（评估体系与标准，非 AI 效度）；2026 arXiv 自动歌唱评估 30 年综述；2019 演奏分析综述。
+- 差异点：只纳入 AI / 自动系统并评价其与人类评分者的一致性、信效度报告质量。
+
+### H5 🟡 传感器反馈对器乐学习效果综述
+- 近邻：Volta & Di Stefano 2024 *Sensors* 可穿戴研究音乐体验系统综述（23 项，覆盖面宽，设备视角）。
+- 差异点：只纳入有学习结果测量的教学研究，回答"有没有用"而非"有什么设备"。
+
+### H8 🔴 音乐 × 痴呆伞状综述
+- 2023 *IJERPH* 已注册伞状综述方案；2025 Cochrane 综述；2026 两篇非药物干预伞状综述均含音乐。放弃。
+
 ## 来源链接
 - Applied Sciences 2026 生成式 AI 音乐治疗系统综述：https://doi.org/10.3390/app16094120
 - Frontiers in Psychology 2026-01 AI 辅助音乐治疗工具综述：https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1741463/full
@@ -94,3 +171,14 @@
 - Sayal 2025 音乐神经反馈系统综述：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11906423/
 - 2024 音乐学 LLM 态度问卷预印本：https://arxiv.org/html/2409.01864v1
 - 2025 AI 练习 App 自我效能研究：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12557579/
+- Moura 等 2024 独奏演奏评估标准系统综述：https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1467434/full
+- Volta & Di Stefano 2024 可穿戴与音乐体验系统综述：https://doi.org/10.3390/s24175783
+- Robb 等 2025 RG-MBI 更新与验证：https://doi.org/10.1177/27536130251384199
+- 2024 外科预录音乐干预报告质量 TIDieR 综述：https://pubmed.ncbi.nlm.nih.gov/39586427/
+- 2020 音乐治疗注册试验全球概览会议摘要：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7741628/
+- Frontiers Hum Neurosci 2026 音乐数字疗法范围综述：https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2026.1602004/full
+- Frontiers Psychiatry 2024 音乐治疗 App 证据综述：https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1366575/pdf
+- Zhang & Wan Yahaya 2025 AR 音乐教育系统综述书章：https://www.igi-global.com/chapter/a-systematic-review-of-augmented-reality-in-music-education/372161
+- LLaQo 演奏反馈模型：https://arxiv.org/pdf/2409.08795
+- IJERPH 2023 音乐治疗痴呆伞状综述方案：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9961781/
+- MDPI Behavioral Sciences 2025 MPA 干预综述（指出测量标准化缺口）：https://www.mdpi.com/2076-328X/15/2/138
