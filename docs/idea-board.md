@@ -154,6 +154,69 @@
 ### H8 🔴 音乐 × 痴呆伞状综述
 - 2023 *IJERPH* 已注册伞状综述方案；2025 Cochrane 综述；2026 两篇非药物干预伞状综述均含音乐。放弃。
 
+---
+
+## 第三批：快速发表候选，目标 Q3 以上（查重日期 2026-10-26）
+
+筛选标准：公开材料或 AI 输出的内容分析、评价类研究、meta 研究；2–3 个月可投；不需要伦理；Q3 期刊常见文体。Medical Problems of Performing Artists 已确认为 SCIE Q3（2025 IF 0.87），是表演类选题的稳妥落点。
+
+| 序 | 编号 | 题目 | 判定 | 周期 | 可发概率 | 首选期刊 |
+|---|---|---|---|---|---|---|
+| 1 | F2 | AI 聊天机器人对音乐表演焦虑常见问题回答的质量、可读性与安全性评价 | 🟢 | 2 月 | 70–80% | Medical Problems of Performing Artists |
+| 2 | F7 | 音乐治疗与音乐教育期刊的开放科学实践审计（预注册、数据共享、利益冲突） | 🟢 | 2–3 月 | 70–80% | Journal of Music Therapy / Music & Science |
+| 3 | F10 | 音乐表演焦虑研究 40 年文献计量与主题演化 | 🟢 | 2 月 | 60–70% | Medical Problems of Performing Artists / Frontiers in Psychology |
+| 4 | F1 | 大语言模型在音乐治疗资格考试样题与分级乐理考试上的表现 | 🟡 | 2–3 月 | 65–75% | Journal of Music Therapy / JMIR Medical Education |
+| 5 | F3 | YouTube 与 TikTok 音乐表演焦虑视频的内容质量与可靠性 | 🟢 | 2 月 | 65–75% | Medical Problems of Performing Artists / JMIR Infodemiology |
+| 6 | F4 | 音乐学习与音乐治疗 App 的隐私政策与数据实践审计 | 🟢 | 2–3 月 | 65–75% | JMIR mHealth and uHealth / Digital Health |
+| 7 | F6 | 音乐治疗认证课程中的技术与 AI 内容：课程文件分析 | 🟢 | 2 月 | 60–70% | Journal of Music Therapy / Nordic Journal of Music Therapy |
+| 8 | F5 | 音乐治疗师与音乐教师招聘广告中的数字能力要求：内容分析 | 🟢 | 2 月 | 60–70% | International Journal of Music Education / Nordic Journal of Music Therapy |
+| 9 | F9 | 主流音乐学习 App 的无障碍（WCAG）审计 | 🟡 | 2–3 月 | 55–65% | Universal Access in the Information Society |
+| 10 | F8 | 音乐教育研究的 Altmetric 关注度分析 | 🟡 | 2 月 | 50–60% | Music Education Research |
+| — | F11 | Suno / Udio 在治疗与课堂的评价研究 | 🟡 | 需评分者 | — | 降级 |
+
+### F2 🟢 聊天机器人 MPA 信息质量评价
+- 近邻：Whittaker & Sun 2025 *Health Informatics Journal* 对 74 项"聊天机器人回答患者问题"研究的综合（证明文体成熟）；各科室 DISCERN / PEMAT / 可读性评价研究数十篇；音乐或 MPA 领域一篇没有。
+- 空白：无人评价过 ChatGPT、Gemini、Claude、Copilot 对乐手 MPA 问题（原因、药物如 β 受体阻滞剂、认知行为疗法、呼吸技巧、何时就医）回答的质量。
+- 建议角度：从 Reddit、论坛和 MPA 文献提取 25–30 个常见问题，四个模型各答一次，两名表演医学专家按 DISCERN、PEMAT、准确性、安全性评分，加 Flesch 可读性；重点看药物建议与就医转介是否安全。
+- 下一步：OSF 预注册问题清单与评分表。
+
+### F7 🟢 音乐治疗与音乐教育期刊开放科学审计
+- 近邻：Eerola 2024（五本音乐心理学期刊含 *Psychology of Music*，239 篇，2017–2022：5% 共享原始数据，0 预注册）；Düvel & Altemeier 2025 *Jahrbuch Musikpsychologie* 计量。
+- 空白：音乐治疗期刊（JMT、NJMT、Arts in Psychotherapy、Music Therapy Perspectives）与音乐教育期刊（IJME、JRME、MER、BJME、RSME）从未被审计。
+- 建议角度：2019–2025 各刊随机抽样共 400–500 篇实证论文，按 Hardwicke 透明度指标编码：预注册、数据、材料、代码、利益冲突、资助、开放获取、复制研究；与 Eerola 的音乐心理学结果对照。
+- 下一步：OSF 预注册编码手册。
+
+### F10 🟢 MPA 文献计量
+- 近邻：*Medicine* 2024 音乐治疗与焦虑计量（1993–2023，临床视角）；手术音乐治疗计量 2025；MPA 本身无计量研究。
+- 建议角度：WoS + Scopus，1980–2026，Bibliometrix + VOSviewer；必须加实质内容：主题演化（从患病率到干预、从心理到生理与技术）、测量工具使用频次（为 H10 铺路）、研究设计分布。避免纯指标堆砌。
+- 风险：审稿人对纯计量疲劳，需与 H10 互为引用增加价值。
+
+### F1 🟡 LLM 音乐治疗资格考试与乐理考试
+- 近邻：Pond & Fujinaga 2025（SciTePress 会议，RCM Level 6 乐理，GPT-4o / Claude 3.5 / Gemini 1.5，最高 75%）；2024 arXiv 音乐推理评估；2026 arXiv GPT-4o-mini 音乐分析自动评分。
+- 空白：无期刊论文；无音乐治疗资格考试（CBMT）样题研究；无跨级别、跨最新模型的教育学分析。
+- 差异点：CBMT 用公开出版的备考题库（注意版权，不用真题）；乐理用 ABRSM 公开历年试卷 1–8 级做难度梯度；分析错误类型对教学的含义。医学领域此类论文年产数百篇，Q3 期刊接受度高。
+- 风险：模型迭代快，投稿时需用当时最新模型并写明版本与日期。
+
+### F3 🟢 短视频 MPA 内容质量
+- 近邻：2026 *Supportive Care in Cancer* 450 条心理健康视频研究发现"音乐治疗类视频质量最低"；TikTok 焦虑症视频质量研究 2025；2011 YouTube 音乐治疗描述性研究。MPA 专题无。
+- 建议角度：YouTube + TikTok 各 100 条，GQS + 改良 DISCERN + 上传者类型 + 互动指标；重点看非专业人士的药物建议。
+
+### F4 🟢 App 隐私与数据实践审计
+- 近邻：Mozilla 2022 心理健康 App 隐私报告（32 个，含冥想类）；2021 冥想 App 数据收集分析；学术研究无。
+- 建议角度：与 H1 共用 App 样本，读隐私政策 + 商店数据标签 + 实际网络流量（可选），按 GDPR / COPPA 维度编码；未成年学习者数据保护是卖点。
+
+### F6 🟢 音乐治疗课程技术内容文件分析
+- 近邻：AMTA 能力标准含"利用技术"条目；NYU 等个别项目设音乐治疗技术课；无系统分析。
+- 建议角度：AMTA 认证项目 + 英国 HCPC 认可项目 + 澳洲项目的公开课程手册，编码技术 / AI 课程有无、学分、内容类型，对照 2025 年 MiSOSTENiDO 的 AI 胜任力框架。
+
+### F5 🟢 招聘广告数字能力内容分析
+- 近邻：2026 *Sustainability* 音乐教师 DigCompEdu 自评调查；1980 年代音乐治疗岗位描述能力分析。招聘广告内容分析无。
+- 建议角度：Indeed、LinkedIn、AMTA 与各国教育局招聘平台 12 个月滚动抓取，编码技术与 AI 要求，比较治疗师 vs 教师、国家、机构类型。
+
+### F9 🟡 / F8 🟡
+- F9：EarSketch 审计、MusiBraille 2024 研究存在，跨 App 系统审计无；领域偏窄。
+- F8：2017–2022 创意艺术治疗 Altmetric 研究已有（含音乐治疗），音乐教育专题无；价值有限。
+
 ## 来源链接
 - Applied Sciences 2026 生成式 AI 音乐治疗系统综述：https://doi.org/10.3390/app16094120
 - Frontiers in Psychology 2026-01 AI 辅助音乐治疗工具综述：https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1741463/full
@@ -182,3 +245,13 @@
 - LLaQo 演奏反馈模型：https://arxiv.org/pdf/2409.08795
 - IJERPH 2023 音乐治疗痴呆伞状综述方案：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9961781/
 - MDPI Behavioral Sciences 2025 MPA 干预综述（指出测量标准化缺口）：https://www.mdpi.com/2076-328X/15/2/138
+- Whittaker & Sun 2025 聊天机器人回答质量综合：https://journals.sagepub.com/doi/10.1177/14604582251388879
+- Eerola 2024 音乐心理学期刊透明度研究：https://durham-repository.worktribe.com/output/3344268
+- Düvel & Altemeier 2025 Jahrbuch Musikpsychologie 开放科学计量：https://jbdgm.psychopen.eu/index.php/JBDGM/article/view/229
+- Pond & Fujinaga 2025 LLM 乐理考试研究：https://www.scitepress.org/PublishedPapers/2025/135061
+- Medicine 2024 音乐治疗与焦虑文献计量：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10977525/
+- 2026 心理健康视频质量研究（音乐治疗类最低）：https://link.springer.com/article/10.1007/s00520-026-11078-y
+- 2011 YouTube 音乐治疗视频描述性研究：https://pubmed.ncbi.nlm.nih.gov/22097103/
+- Sustainability 2026 音乐教师数字能力研究：https://doi.org/10.3390/su18073640
+- 创意艺术治疗 Altmetric 研究（2017–2022）：https://science.rsu.lv/en/publications/academic-and-social-impact-of-creative-arts-therapies-research-20/
+- Medical Problems of Performing Artists 分区参考：https://www.journalmetrics.org/journal/medical-problems-of-performing-artists
