@@ -36,6 +36,7 @@
 - `docs/idea-board.md` 每个 idea 的查重证据与差异化角度
 - `docs/novelty-check.md` 查重流程
 - `docs/research-program.md` 研究纲领：一个深核心 + 边缘论文（hub 与 spokes）
+- `docs/hub-d-plan.md` 当前主纲领 Hub D 的 24 个月规划（论文地图、阶段、共用资产、里程碑）
 - `docs/idea-sweep-program.md` 选题循环的程序文件（人改）；`docs/idea-log.tsv` 循环日志（AI 追加）
 - `docs/target-journals.md` 目标期刊清单
 - `docs/workflow.md` 从选题到投稿的标准流程与时间表
