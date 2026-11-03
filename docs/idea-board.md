@@ -217,6 +217,34 @@
 - F9：EarSketch 审计、MusiBraille 2024 研究存在，跨 App 系统审计无；领域偏窄。
 - F8：2017–2022 创意艺术治疗 Altmetric 研究已有（含音乐治疗），音乐教育专题无；价值有限。
 
+---
+
+## 第四批：神经数据路线（查重日期 2026-11-03，详见 `docs/hub-n-plan.md`）
+
+| 编号 | 题目 | 数据 | 判定 | 近邻 |
+|---|---|---|---|---|
+| N-S1 | OpenMIIR 解码研究可复现性审计 | 文献 | 🟢 | 2026 bioRxiv 泄漏感知再分析只重分析了数据，未审计文献 |
+| N-S2 | 开放音乐神经数据集 FAIR 与复用审计 | 元数据 | 🟢 | Mendeley 2024《EEG 音乐数据集综述》（161 项，只列数据集）；UCC 医疗 EEG 数据集复用范围综述（非音乐） |
+| N-S3 | OpenMIIR 歌词脚手架与想象可解码性 | OpenMIIR | 🟢 | Stober 2015 设计了有词 / 无词 / 器乐三组但未报告条件间解码差异；无 audiation 框架研究 |
+| N-S4 | Transformer 惊异度 vs IDyOM 解释钢琴家与非音乐家 EEG；专业度分类 | Di Liberto | 🟢 / 🟡 | Di Liberto 2020 eLife；2024 PMC 跨频带 IDyOM 再分析；AES 2025 演示解码旋律特征；2026 arXiv 在 NMED-T 上用神经网络期望表征做曲目识别 |
+| N-S5 | MET 听前 / 听中 / 听后状态转换与 ISO 原则 | MET | 🟢 | MET 2026 发布，无复用论文；ISO 原则无 EEG 实证检验 |
+| N-CORE-2 | 多数据集音乐诱发情绪 EEG 标记复制 | MET、OSF、ds002725、MUSIN-G | 🟢 | *Sensors* 2026 在 DEAP / DREAMER（非音乐）上发现额叶 alpha 不对称不跨数据集复制；情绪 EEG 综述指出 90% 研究只用 1–2 个数据集 |
+| N-CORE-1 | 音乐 EEG 跨数据集基准 | 多数据集 | 🟢 | LibEER、EEG-FM-Bench、OmniEEG-Bench 均为通用基准；NeuroSketch 2025 把 OpenMIIR 列为六个数据集之一；无音乐专用基准 |
+| N-S6 | OSF 悲伤诱导后音乐情绪调节再分析 | OSF + MET | 🟢 待复核 | 数据集 2024 上线，复用未见 |
+| N-S7 | EEG 基础模型在音乐任务上的表现 | 多数据集 | 🟢 待复核 | PRiSE-EEG 2026 等基础模型未报告音乐任务 |
+
+### 数据集来源
+- OpenMIIR：https://github.com/sstober/openmiir ；2026 泄漏感知再分析：https://www.biorxiv.org/content/10.64898/2026.08.06.743425v1
+- Di Liberto 2020 eLife：https://elifesciences.org/articles/51784 ；Dryad：https://datadryad.org/dataset/doi:10.5061/dryad.g1jwstqmh ；2024 再分析：https://pmc.ncbi.nlm.nih.gov/articles/PMC11612851/
+- MET：https://github.com/OpenNeuroDatasets/ds008701 ；DataPort：https://ieee-dataport.org/documents/met-music-induced-eeg-dataset
+- OSF 音乐情绪调节 EEG：https://osf.io/3u2gt/overview
+- MUSIN-G：https://openneuro.org/datasets/ds003774
+- ds002725 EEG-fMRI：https://nemar.org/dataset/on002725
+- ds003720 Music Genre fMRI：https://openneuro.org/datasets/ds003720
+- EEG 音乐数据集综述数据：https://data.mendeley.com/datasets/r9smfpn6df
+- Sensors 2026 跨数据集 FAA 不复制：https://doi.org/10.3390/s26175327
+- NeuroSketch 2025：https://arxiv.org/pdf/2512.09524
+
 ## 来源链接
 - Applied Sciences 2026 生成式 AI 音乐治疗系统综述：https://doi.org/10.3390/app16094120
 - Frontiers in Psychology 2026-01 AI 辅助音乐治疗工具综述：https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1741463/full

@@ -82,6 +82,17 @@ Evidence infrastructure for music intervention and music education research
 - **spokes**：H3 注册库分析、H4 报告质量、H10 量表综述、F7 开放科学审计、F10 文献计量，全部 🟢。
 - **期刊**：Journal of Music Therapy、Research Synthesis Methods、Frontiers in Psychology、Systematic Reviews。
 
+### Hub N：开放神经数据上的音乐学习与音乐干预计算神经科学（2026-11-03 新增）
+Open-data computational neuroscience of music learning and music-based intervention
+
+- **锚点**：音乐教育（期望、想象 / audiation、专业度）× 音乐治疗（音乐诱发情绪与状态变化）× EEG / fMRI 公开数据
+- **核心**：N-CORE-1 跨数据集、泄漏感知的音乐 EEG 基准；N-CORE-2 预注册的多数据集情绪标记复制研究
+- **spokes**：OpenMIIR 文献可复现性审计、开放数据集 FAIR 审计、OpenMIIR 歌词脚手架再分析、Di Liberto 专业度与 Transformer 期望、MET 状态转换与 ISO 原则、OSF 情绪调节再分析、EEG 基础模型、立场论文
+- **伦理**：公开去标识数据二次分析，申请一次"非人类受试者研究"认定即可
+- **期刊**：Journal of Neural Engineering、Frontiers in Human Neuroscience、Frontiers in Neuroscience、Brain Sciences、Psychophysiology、Psychology of Music、Music & Science、Journal of Neuroscience Methods
+- **详细规划**：`docs/hub-n-plan.md`
+- **与其他 hub 的关系**：深度最高、辨识度最高；门槛是信号处理技能与一位 EEG 方向合作者；Hub E 的音频特征工具链可直接复用
+
 ### 四个 hub 的比较
 | | Hub C 钢琴评估 | Hub D LLM 评估 | Hub E 生成音乐 | Hub F meta 研究 |
 |---|---|---|---|---|
@@ -94,6 +105,7 @@ Evidence infrastructure for music intervention and music education research
 | 最大风险 | MIR 社区竞争快 | 模型迭代快 | 版权条款、API 变动 | 被视为"不够实证" |
 
 ## 推荐
+要"深"且能被神经科学期刊认可：**Hub N 为主，Hub D 为副**。N 提供发现型贡献，D 提供快速发表记录，两者都不需要招募。
 在四个零伦理 hub 中：锚在钢琴表演选 **Hub C**；锚在音乐治疗选 **Hub E**（成本最低、竞争最少）或 **Hub D**（时效最强）。Hub F 可作任一 hub 的副线。
 
 原两个 hub 的判断保留如下。
