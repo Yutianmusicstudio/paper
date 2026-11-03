@@ -32,6 +32,7 @@
 快速发表策略见 `docs/publish-fast.md`。
 
 ## 目录结构
+- `docs/idea-summary.md` 选题总汇：七个 hub、52 个 idea 按类型与状态分组，三种执行路线
 - `docs/research-agenda.md` 选题队列（排序后）
 - `docs/idea-board.md` 每个 idea 的查重证据与差异化角度
 - `docs/novelty-check.md` 查重流程
