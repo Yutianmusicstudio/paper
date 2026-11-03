@@ -38,7 +38,8 @@
 - `docs/novelty-check.md` 查重流程
 - `docs/research-program.md` 研究纲领：一个深核心 + 边缘论文（hub 与 spokes）
 - `docs/hub-d-plan.md` Hub D（LLM 评估科学）的 24 个月规划
-- `docs/hub-n-plan.md` Hub N（开放神经数据计算神经科学）的 24 个月规划，深度最高
+- `docs/hub-n-plan.md` Hub N（开放神经数据计算神经科学）的 24 个月规划，深度最高；**当前主纲领，Hub D 为副**
+- `docs/hub-n-screen-round1.md` Hub N / D 第一轮粗筛：数据集核实结果、三档分级、第一年执行序列
 - `docs/direction-neuro-music-cs.md` "脑 × 音乐 × CS"方向评估：七个子方向的热度、空白与取舍
 - `docs/idea-sweep-program.md` 选题循环的程序文件（人改）；`docs/idea-log.tsv` 循环日志（AI 追加）
 - `docs/target-journals.md` 目标期刊清单

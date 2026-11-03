@@ -3,8 +3,8 @@
 仿 karpathy/autoresearch 的 `program.md`：人只改本文件来调整"研究组织"，AI 读本文件后自主循环，不问人。
 
 ## 当前 hub
-- **主 hub**：Hub D 大语言模型作为音乐治疗与音乐教育的知识主体（规划见 `docs/hub-d-plan.md`）
-- **副 hub**：Hub B 人工智能进入音乐治疗实践
+- **主 hub**：Hub N 开放神经数据上的音乐学习与音乐干预计算神经科学（规划 `docs/hub-n-plan.md`，粗筛 `docs/hub-n-screen-round1.md`）
+- **副 hub**：Hub D 大语言模型作为音乐治疗与音乐教育的知识主体（规划 `docs/hub-d-plan.md`）
 - 可选 hub：A 技术介导 MPA · B AI 进入音乐治疗 · C 钢琴演奏计算评估 · D LLM 评估科学 · E 生成式 AI 治疗性音乐计算音乐学 · F 证据基础设施 · N 开放神经数据计算神经科学（`docs/hub-n-plan.md`）
 - Hub N 的矩阵额外 source：OpenMIIR · Di Liberto · MET · OSF 情绪调节 · MUSIN-G · ds002725 · NMED · ds003720；额外 facet：二次分析 · 多数据集复制 · 基准
 - 自由模式（不限 hub）：仅当本文件把 `free_mode: true` 改为真时启用

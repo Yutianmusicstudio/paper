@@ -15,7 +15,7 @@ Open-data computational neuroscience of music learning and music-based intervent
 |---|---|---|---|---|
 | OpenMIIR（Stober 2015） | 10 人，64 导，12 段音乐分三组：有歌词 / 同曲无歌词 / 纯器乐；感知 + 3 种想象条件，每条件 5 次重复 | PDDL 公有领域 | 被当作解码基准十年；2026 预印本证明跨被试泛化很弱；**歌词条件对想象可解码性的影响从未报告** | 想象（audiation）研究；歌词脚手架效应 |
 | Di Liberto 2020（eLife，Dryad） | 10 非音乐家 + 10 专业钢琴家，64 导，巴赫单声部旋律，30 试次 | CC0 | 2024 年一篇用 IDyOM 做了跨频带再分析；**无 Transformer 期望模型分析，无"从 EEG 预测专业度"分析** | 专业度神经标记；期望编码 |
-| MET（Cheang，澳门大学，2026） | 20 人 × 20 次听乐，128 导（DataPort 版 8 导，OpenNeuro ds008701 版 66 导），每次含**听前 / 听中 / 听后**三段 + SAM 情绪评分 | 待核对（OpenNeuro 默认 CC0） | 2026 年刚发布，**几乎无人复用** | 音乐诱发状态变化；ISO 原则计算检验 |
+| MET（Cheang，澳门大学，2026） | 20 人 × 20 次听乐，128 导（DataPort 版 8 导 CSV，OpenNeuro ds008701 版 BIDS 全通道），每次 130 秒：**听前 5 秒 + 音乐 120 秒 + 听后 5 秒** + SAM 情绪评分 | **未核实**，需到 OpenNeuro 页确认 | 2026 年刚发布，几乎无人复用 | 多数据集复制的数据源之一；**听前 / 听后仅 5 秒，不能做状态转换分析**（第一轮粗筛修正） |
 | OSF 音乐情绪调节 EEG（2024） | 15 人，32 导，静息 → 悲伤自传回忆 → 听音乐，附情绪与应对评分 | 待核对 | 几乎无复用 | 最接近音乐治疗范式的公开数据 |
 | MUSIN-G（ds003774） | 20 人（非音乐家），12 首跨流派，熟悉度与喜爱度评分 | CC0 | 2026 一篇用于喜爱度回归 | 多数据集复制的第三个来源 |
 | ds002725 | 21 人 EEG-fMRI 同步，情感音乐 | CC0 | 少量复用 | 多数据集复制 |
@@ -40,11 +40,11 @@ Open-data computational neuroscience of music learning and music-based intervent
 | N-S2 | 开放音乐神经数据集的 FAIR 与复用审计：许可、BIDS 合规、文档、引用复用率 | 数据集元数据 | 审计 | Scientific Data（Comment）/ Frontiers in Neuroinformatics | 第 4 月 | 65–75% | 🟢（数据集综述已有，复用审计无） |
 | N-S3 | 歌词是否为音乐想象提供脚手架：OpenMIIR 有词 / 无词 / 器乐条件下想象可解码性的泄漏感知再分析，以 audiation 理论解读 | OpenMIIR | 二次分析 | Psychology of Music / Music & Science / Brain Sciences | 第 6 月 | 60–70% | 🟢 |
 | N-S4 | 从神经期望追踪读出音乐专业度：Transformer 惊异度 vs IDyOM 对钢琴家与非音乐家 EEG 的解释力与分类 | Di Liberto | 二次分析 | Frontiers in Neuroscience / Cognitive Neurodynamics / Brain Sciences | 第 8 月 | 60–70% | 🟢（Transformer 角度）/ 🟡（专业度效应已知） |
-| N-S5 | 音乐诱发的状态转换：MET 听前 / 听中 / 听后三段的 EEG 变化与乐曲特征的关系，ISO 原则的计算检验 | MET + 音频特征 | 二次分析 | Frontiers in Human Neuroscience / Brain Sciences / Music & Science | 第 11 月 | 60–70% | 🟢 |
+| N-S5（重设计） | 音乐内 120 秒 EEG 情绪标记动态与乐曲特征时间序列的关系，结合 SAM 评分；并入 N-CORE-2 子分析 | MET + 音频特征 | 二次分析 | 并入 N-CORE-2 | — | — | 原"听前 / 听后状态转换"设计因窗口仅 5 秒而取消（见 `hub-n-screen-round1.md`） |
 | N-S6 | 悲伤诱导后的音乐情绪调节：OSF 数据集的再分析与 MET 的交叉验证 | OSF + MET | 二次分析 | The Arts in Psychotherapy / Frontiers in Psychology | 第 13 月 | 55–65% | 🟢 待复核 |
 | N-S7 | EEG 基础模型（LaBraM 等）在音乐任务上的零样本与微调表现 | 多数据集 | 方法 | Journal of Neural Engineering / Biomedical Signal Processing and Control | 第 16 月 | 55–65% | 🟢 待复核 |
 | N-S8 | 公开数据二次分析在音乐神经科学中的伦理与报告规范：立场论文 | 文献 | 概念 | Music & Science / Frontiers in Neuroscience | 第 18 月 | 50–60% | 🟡 |
-| N-S9 | 音乐基础模型逐层嵌入对 EEG 的编码与专业度调节（MERT / MusicGen / Jukebox） | Di Liberto、NMED-T、MUSIN-G | 二次分析 | Frontiers in Neuroscience / Journal of Neural Engineering | 第 10 月 | 60–70% | 🟢 |
+| N-S9 | 音乐基础模型逐层嵌入对 EEG 的编码与专业度调节（MERT / MusicGen / Jukebox） | Di Liberto（首选，含音频）、NMED-T（音频需自备） | 二次分析 | Frontiers in Neuroscience / Journal of Neural Engineering | 第 7 月（提前） | 55–65% | 🟡：CNS 2026 海报已比较 MusicGen 与 EEG（实验室内部数据，仅摘要）；差异点为公开数据 + 专业度 + MERT |
 | N-S10 | 音频惊异度 vs 符号惊异度解释自然音乐 EEG，专业度调节 | Di Liberto、NMED-T | 二次分析 | Cognitive Neurodynamics / Brain Sciences | 第 12 月 | 55–65% | 🟢 / 🟡 |
 | N-S11 | 生成式 AI 驱动闭环音乐神经反馈的设计空间与评估协议：立场论文 | 文献 | 概念 | Frontiers in Human Neuroscience | 第 17 月 | 50–60% | 🟡 |
 | N-S12 | EEG 音乐解码 / 重建文献的评估协议审计 | 文献 | meta 研究 | Journal of Neuroscience Methods | 第 5 月（与 N-S1 合并或分拆） | 65–75% | 🟢 |
