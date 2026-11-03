@@ -44,8 +44,12 @@ Open-data computational neuroscience of music learning and music-based intervent
 | N-S6 | 悲伤诱导后的音乐情绪调节：OSF 数据集的再分析与 MET 的交叉验证 | OSF + MET | 二次分析 | The Arts in Psychotherapy / Frontiers in Psychology | 第 13 月 | 55–65% | 🟢 待复核 |
 | N-S7 | EEG 基础模型（LaBraM 等）在音乐任务上的零样本与微调表现 | 多数据集 | 方法 | Journal of Neural Engineering / Biomedical Signal Processing and Control | 第 16 月 | 55–65% | 🟢 待复核 |
 | N-S8 | 公开数据二次分析在音乐神经科学中的伦理与报告规范：立场论文 | 文献 | 概念 | Music & Science / Frontiers in Neuroscience | 第 18 月 | 50–60% | 🟡 |
+| N-S9 | 音乐基础模型逐层嵌入对 EEG 的编码与专业度调节（MERT / MusicGen / Jukebox） | Di Liberto、NMED-T、MUSIN-G | 二次分析 | Frontiers in Neuroscience / Journal of Neural Engineering | 第 10 月 | 60–70% | 🟢 |
+| N-S10 | 音频惊异度 vs 符号惊异度解释自然音乐 EEG，专业度调节 | Di Liberto、NMED-T | 二次分析 | Cognitive Neurodynamics / Brain Sciences | 第 12 月 | 55–65% | 🟢 / 🟡 |
+| N-S11 | 生成式 AI 驱动闭环音乐神经反馈的设计空间与评估协议：立场论文 | 文献 | 概念 | Frontiers in Human Neuroscience | 第 17 月 | 50–60% | 🟡 |
+| N-S12 | EEG 音乐解码 / 重建文献的评估协议审计 | 文献 | meta 研究 | Journal of Neuroscience Methods | 第 5 月（与 N-S1 合并或分拆） | 65–75% | 🟢 |
 
-两年合计：核心 2 篇 + 边缘 8 篇；第一年投出 5 篇。
+两年合计：核心 2 篇 + 边缘 12 篇；第一年投出 6 篇。"脑 × 音乐 × CS"方向评估见 `docs/direction-neuro-music-cs.md`。
 
 ## 4. 四个阶段
 ### 阶段 0（第 0–1 月）：环境与认定

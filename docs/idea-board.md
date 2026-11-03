@@ -231,7 +231,11 @@
 | N-CORE-2 | 多数据集音乐诱发情绪 EEG 标记复制 | MET、OSF、ds002725、MUSIN-G | 🟢 | *Sensors* 2026 在 DEAP / DREAMER（非音乐）上发现额叶 alpha 不对称不跨数据集复制；情绪 EEG 综述指出 90% 研究只用 1–2 个数据集 |
 | N-CORE-1 | 音乐 EEG 跨数据集基准 | 多数据集 | 🟢 | LibEER、EEG-FM-Bench、OmniEEG-Bench 均为通用基准；NeuroSketch 2025 把 OpenMIIR 列为六个数据集之一；无音乐专用基准 |
 | N-S6 | OSF 悲伤诱导后音乐情绪调节再分析 | OSF + MET | 🟢 待复核 | 数据集 2024 上线，复用未见 |
-| N-S7 | EEG 基础模型在音乐任务上的表现 | 多数据集 | 🟢 待复核 | PRiSE-EEG 2026 等基础模型未报告音乐任务 |
+| N-S7 | EEG 基础模型在音乐任务上的表现 | 多数据集 | 🟢 | EEG-FM-Bench 2025（14 数据集）、OmniEEG-Bench 2026（54 数据集）均无音乐任务 |
+| N-S9 | 音乐基础模型逐层嵌入对 EEG 的编码与专业度调节 | Di Liberto、NMED-T、MUSIN-G | 🟢 | *Nature Communications* 2025 用 MusicLM 的 MuLan 嵌入预测 fMRI（https://www.nature.com/articles/s41467-025-66731-7）；MERT / MusicGen / Jukebox 对 EEG 未做；专业度调节未做 |
+| N-S10 | 音频惊异度 vs 符号惊异度解释自然音乐 EEG | Di Liberto、NMED-T | 🟢 / 🟡 | eLife 2022 Music Transformer ≥ IDyOM（https://elifesciences.org/articles/80935）；2025 arXiv 扩散模型音频惊异度（https://arxiv.org/pdf/2508.05306）与感知对齐表征预测 EEG（https://arxiv.org/pdf/2511.05350）；专业度 × 模型交互未做 |
+| N-S11 | 生成式 AI 闭环音乐神经反馈立场论文 | 文献 | 🟡 | 极简 BCMI 2026（https://arxiv.org/abs/2606.01473）、Neurophone 2025、NeuroHarmonium 2026、Sayal 2025 系统综述；无生成式 AI 驱动的闭环系统与标准化评估协议 |
+| N-S12 | EEG 音乐解码 / 重建评估协议审计 | 文献 | 🟢 | IEEE TMM 2026、arXiv 2026 通道导向 Transformer、Postolache 2024 潜扩散；跨被试评估报告不一 |
 
 ### 数据集来源
 - OpenMIIR：https://github.com/sstober/openmiir ；2026 泄漏感知再分析：https://www.biorxiv.org/content/10.64898/2026.08.06.743425v1
