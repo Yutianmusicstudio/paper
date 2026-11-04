@@ -1,4 +1,6 @@
-# 稿件大纲：Four decades of music performance anxiety research: a bibliometric analysis of themes, measures and study designs (1985–2026)
+# 稿件大纲：What has music performance anxiety research measured, designed and studied? A bibliometric and content analysis of six decades of literature
+
+> 2026-11-04 修订：收到检索协议与数据交接（`protocol/`）。Rumiantsev (2026) *Social Sciences & Humanities Open* 已发表音乐表演研究整体计量（2,159 篇），MPA 为其主导主题之一，**纯计量路线不再 🟢**。本文重心改为 RQ3 内容编码（测量工具、设计、人群、技术介入），计量部分压缩为背景。题目与引言第一段相应改写。原题目：Four decades of music performance anxiety research: a bibliometric analysis of themes, measures and study designs (1985–2026)。
 
 - **Slug**：mpa-bibliometric（看板编号 F10）
 - **类型**：文献计量 + 内容编码（Bibliometrix / VOSviewer）
@@ -7,7 +9,7 @@
 - **报告规范**：BIBLIO 清单（Montazeri et al., 2023，文献计量报告指南）+ PRISMA 流程图记录检索与纳入
 - **预注册**：OSF（检索式、纳入标准、分析计划；一天可完成）
 - **伦理**：不需要
-- **查重**：🟢（2026-10-26；仅有 Medicine 2024 音乐治疗与焦虑计量、2025 手术音乐治疗计量，MPA 专题无）
+- **查重**：🟡（2026-11-03 更新）。近邻：Rumiantsev (2026) *Social Sciences & Humanities Open*, doi:10.1016/j.ssaho.2026.103189，WoS 2,159 篇音乐表演研究计量，摘要称 MPA 与 wellbeing 为主导主题 [由另一会话经 Crossref 核实，本会话未能独立打开]；Medicine 2024 音乐治疗与焦虑计量。差异点：本文以 MPA 为唯一对象，并对每篇做测量工具 / 设计 / 人群 / 技术介入编码，这是 Rumiantsev 未做的。
 - **通讯作者单位**：Georgia Institute of Technology（决定出版协议适用性）
 
 ## 路线与费用（2026-11-04 核实）
@@ -16,7 +18,8 @@
 |---|---|---|---|---|---|---|
 | A 最快 | Behavioral Sciences（MDPI） | Q2–Q3 | 约 2,200 CHF ≈ 1.8 万元；**未发现 Georgia Tech 与 MDPI 的机构折扣**，需向 ioap@mdpi.com 与 GT 图书馆确认 | 约 3 周（2020 数据 17.8 天） | 70–75% | 该刊 2025 年发过 MPA 系统综述与 MPA 管理论文，范围匹配；"Interventions for Music Performance Anxiety"特刊截止 2026-01-26 已过，走常规栏目 |
 | A′ | Healthcare（MDPI） | Q2–Q3 | 约 2,200 CHF | 约 19.5 天（2023 数据） | 65–70% | 范围偏医疗，MPA 可归"表演艺术医学" |
-| B 零成本 | The Arts in Psychotherapy（Elsevier 混合） | Q2–Q3 | **0**：Georgia Tech 图书馆与 Elsevier 有 2025 年起的 Read & Publish 协议，覆盖混合期刊的开放获取费；不选 OA 也免费 | 6–10 周 | 60–65% | 范围是艺术治疗，MPA 计量属边缘匹配；需投稿前询问 |
+| B 零成本 | The Arts in Psychotherapy（Elsevier 混合） | Q2–Q3 | **0**：GT 图书馆 2025-06 起的 Elsevier Read & Publish 协议**只覆盖混合期刊**；不选 OA 也免费 | 6–10 周 | 60–65% | 范围是艺术治疗，MPA 内容分析属边缘匹配；需投稿前询问 |
+| B″ | Social Sciences & Humanities Open（Elsevier **全开放获取**） | ESCI，分区待查 | **不在 GT 协议内**（协议只含混合刊），需付 APC，金额待查 | 6–10 周 | 60–65% | Rumiantsev 2026 刚发在此刊，编辑熟悉主题，但也最可能质疑重叠；交接文件称其被 GT 协议覆盖，**经核实不成立** |
 | B′ 零成本 | Medical Problems of Performing Artists | Q3 | 0 | 2–4 月 | 55–60% | 范围最匹配，但季刊慢，文献计量非主流文体 |
 | C | Medicine（Wolters Kluwer） | Q3 | 约 2,000–2,500 USD ≈ 1.5–1.8 万元；GT 无协议 | 4–8 周 | 65–70% | 2024 年发过同文体同领域论文 |
 
@@ -24,15 +27,13 @@
 
 **推荐**：预算允许走 A，三个月内见刊；不想花钱走 B，先给编辑发询问信，三天内得回复再决定。
 
-## 研究缺口（≤ 3 句）
-音乐表演焦虑研究积累四十年、跨心理学、医学、音乐教育与表演科学，但从未有人系统描绘其知识结构：谁在做、在哪发、主题如何演化、用了什么测量工具与设计。2024 年 Medicine 的"音乐治疗与焦虑"计量只覆盖临床音乐治疗，不含表演者。多篇 2025–2026 年干预综述指出测量不标准化与设计薄弱，却缺乏全景数据支撑。
+## 研究缺口（≤ 3 句，已按 Rumiantsev 2026 改写）
+Rumiantsev (2026) 的音乐表演研究计量确认 MPA 是该领域的主导主题，但计量只能回答"谁在做、在哪发、主题词如何共现"，回答不了领域方法学的三个核心问题：用什么量表测、用什么设计做、研究了谁。多篇 2025–2026 年干预综述指出测量不标准化与设计薄弱，却只基于几十篇干预研究。本文对 MPA 全部约 500 篇期刊文献逐篇编码测量工具、设计、人群与技术介入，给出首份方法学全景。
 
-## 研究问题
-- RQ1：1985–2026 年 MPA 研究的产出趋势、国家、机构、期刊、核心作者与合作网络如何？
-- RQ2：关键词共现与主题演化显示出哪些研究主题的兴起与衰退（从患病率与人格到干预、生理指标与技术）？
-- RQ3：（内容编码）最常用的测量工具、研究设计与人群分别是什么，随时间如何变化？
-
-RQ3 是与纯指标堆砌拉开差距的部分，也是审稿人会认为"有实质"的部分。
+## 研究问题（RQ1 为主体）
+- RQ1（主体，内容编码）：MPA 期刊文献使用了哪些测量工具（K-MPAI 各版本、PAI、MPAI-A、STAI、PAQ、PRCP、生理指标…）、哪些研究设计（横断面 / 干预 / 质性 / 综述 / 测量学 / 个案）、哪些人群（学生 / 职业 / 青少年 / 混合 / 教师），以及是否有技术介入（VR、生物反馈、App、AI、远程）；这些分布随三个时期如何变化？
+- RQ2（背景）：产出趋势、国家、期刊、核心作者与合作网络，与 Rumiantsev 2026 的整体图景对照，说明 MPA 子领域的特殊性。
+- RQ3（综合）：测量工具与设计的组合揭示了哪些方法学缺口（如生理指标很少与标准量表并用、技术介入研究极少用验证过的量表），对未来研究与 H10 COSMIN 综述有何含义？
 
 ## 方法概要
 
@@ -53,8 +54,13 @@ RQ3 是与纯指标堆砌拉开差距的部分，也是审稿人会认为"有实
 5. **内容编码（RQ3）**：对全部纳入文献按题录与摘要编码：测量工具（K-MPAI、PAI、MPAI-A、STAI、PAQ、生理指标…）、研究设计（横断面 / 干预 / 质性 / 综述 / 测量学）、人群（学生 / 职业 / 青少年 / 混合）、技术介入（VR、生物反馈、App、AI、无）。双人编码 20% 校准，kappa ≥ 0.8
 6. 图（6 张）：年度产出；国家合作地图；关键词共现网络；主题演化桑基图；主题地图；测量工具与设计随时间堆叠图
 
-### 预计规模
-- WoS 初检 600–1,000 条，纳入 400–700 篇
+### 实际规模（2026-11-03 检索，见 `protocol/search-protocol.md`）
+- WoS 511 条（Article 389、Review 37、Early Access 21）；Scopus 513 条；DOI 重合 370；合并去重约 600–630 条；排除非期刊与非音乐情境后预计纳入 450–520 篇
+- 时间跨度：WoS 最早 1962，Scopus 最早 1940 → 题目改为"six decades"，方法中说明 1962 前记录按数据库实际呈现
+
+### 编码可行性与双人编码（交接文件第 3、4 点）
+- WoS 79 条无摘要，量表名常不写在摘要里 → RQ1 的测量工具编码对无摘要或摘要未写明的文献查全文（GT 图书馆全文权限），预计 150–250 篇需查全文，这是本文最大工时项
+- **第二编码者必须是人**：多数期刊不接受 AI 作为编码者。方案：助手做全量初编码并标注依据句，一名人类共同作者独立编码随机 20%（约 100 篇）算 kappa，分歧由第一作者裁决；方法中如实写"AI 辅助初编码，人工独立复核 20%"，并在 AI 使用声明中说明
 
 ## 预期贡献
 - 首张 MPA 研究全景图，供后续综述与基金申请定位
