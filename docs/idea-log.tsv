@@ -1,1 +1,2 @@
 date	id	hub	facet	source	tech	title	verdict	ethics	months	probability	status	nearest_neighbor	note
+2026-11-09	G1	G(方向外)	游戏AI	程序化跑酷环境	自监督危险表示+自适应规划	无人类示范的跨游戏高速避障智能体	⚪待查重	否	12+	-	idea	待查：RealtimeBench、快慢结合规划预算、Lumine、DreamerV3	用户提出，非音乐方向；先查"持续加速"与"零示范跨游戏迁移"
